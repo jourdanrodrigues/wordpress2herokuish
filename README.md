@@ -18,11 +18,15 @@ making it part of your world.
 2. Open [wp-admin/install.php](wp-admin/install.php) in your browser. It will
 take you through the process to set up a `wp-config.php` file with your database
 connection details.
-  i. If for some reason this doesn't work, don't worry. It doesn't work on all
-	web hosts. Open up `wp-config-sample.php` with a text editor like WordPad or
-	similar and fill in your database connection details.
-	ii. Save the file as `wp-config.php` and upload it.
-  iii. Open [wp-admin/install.php](wp-admin/install.php) in your browser.
+
+i. If for some reason this doesn't work, don't worry. It doesn't work on all
+web hosts. Open up `wp-config-sample.php` with a text editor like WordPad or
+similar and fill in your database connection details.
+
+ii. Save the file as `wp-config.php` and upload it.
+
+iii. Open [wp-admin/install.php](wp-admin/install.php) in your browser.
+
 3. Once the configuration file is set up, the installer will set up the tables
 needed for your blog. If there is an error, double check your `wp-config.php`
 file, and try again. If it fails again, please go to the
